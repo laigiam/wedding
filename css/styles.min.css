@@ -1659,3 +1659,6 @@ ul.modal-list li {
   z-index: 2;
 }
 
+#eng-pics .header {
+  margin-bottom: -12px; /* Reduce this value to bring the text closer */
+}
