@@ -1694,3 +1694,8 @@ ul.modal-list li {
   color: #42d7f5 !important; /* keep links blue */
   font-weight: 300 !important;
 }
+
+.event-seating-note strong {
+  color: rgba(28, 54, 83, 0.85); /* darker than normal text */
+  font-weight: 600;
+}
