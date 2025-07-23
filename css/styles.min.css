@@ -1662,3 +1662,35 @@ ul.modal-list li {
 #eng-pics .header {
   margin-bottom: -12px; /* Reduce this value to bring the text closer */
 }
+
+.faq-answer ul.modal-list {
+  font-weight: 300; /* Lighten font */
+  font-family: "Playfair Display", serif; /* Match body font */
+  color: rgba(28, 54, 83, 0.6); /* Same text color */
+  padding-left: 20px; /* Optional: adjust indentation */
+}
+
+.faq-answer ul.modal-list li strong {
+  font-weight: 400; /* So it’s not too bold */
+}
+
+.faq-answer,
+.faq-answer ul,
+.faq-answer ul li,
+.faq-answer ul li strong,
+.faq-answer a {
+  color: rgba(28, 54, 83, 0.6) !important;
+  font-weight: 300 !important;
+}
+
+
+.faq-answer ul.modal-list li,
+.faq-answer ul.modal-list li strong {
+  color: rgba(28, 54, 83, 0.6) !important;
+  font-weight: 300 !important;
+}
+
+.faq-answer ul.modal-list li a {
+  color: #42d7f5 !important; /* keep links blue */
+  font-weight: 300 !important;
+}
