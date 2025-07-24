@@ -749,7 +749,7 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="faq-item">
           <div class="faq-question">When should I RSVP by?</div>
-          <div class="faq-answer">Please RSVP by <strong>30<sup>th</sup> July 2025</strong>.</div>
+          <div class="faq-answer">Please RSVP by <strong>1 August 2025</strong>.</div>
         </div>
         <div class="faq-item">
           <div class="faq-question">Can I bring a guest/plus-one?</div>
@@ -964,7 +964,7 @@ document.addEventListener("DOMContentLoaded", function () {
         body: new URLSearchParams(data)
       })
         .then(() => {
-          alertWrapper.innerHTML = "<p>Thanks for RSVPing!</p>";
+          alertWrapper.innerHTML = "<p style='font-size: 1.5rem; font-weight: 900; color: #42d7f5; text-align: center; margin-top: 15px;'>🎉 Thanks for RSVPing! Your form has been successfully submitted 🎉 </p>";
           form.reset();
         })
         .catch(error => {
