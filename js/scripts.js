@@ -207,7 +207,6 @@ $(document).ready(function () {
     $('#add-to-cal').html(myCalendar);
 
 
-
     /********************** RSVP **********************/
     $('#rsvp-form').on('submit', function (e) ){
         e.preventDefault();
@@ -229,7 +228,6 @@ $(document).ready(function () {
                     console.log(data);
                     $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
                 });
-        
         
         }
     });
