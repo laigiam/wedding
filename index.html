@@ -732,10 +732,10 @@
           <img id="rsvp-slide-a" class="rsvp-slide active" src="img/run-1.jpg" alt="Run 1">
           <img id="rsvp-slide-b" class="rsvp-slide" src="img/run-2.jpg" alt="Run 2">
         </div>
+       <div class="caption-credit" style="font-size: 11px; color: #777; margin-top: 1px;">
+          (Mid-run moments... thanks to friends) </div>
         <div class="rsvp-caption">
           <div id="rsvp-caption-main">See you there! 🏃🏻‍♂️🏃‍♀️</div>
-          <div class="caption-credit" style="font-size: 10px; color: #777; margin-top: 8px;">
-    (Mid-run moments, thanks to friends) </div>
 </div>
 
       </div>
@@ -1263,9 +1263,7 @@ function showNextImage() {
     imgB.classList.remove("active");
   }
 
-  document.getElementById("rsvp-caption-main").textContent = "See you there! 🏃🏻‍♂️🏃‍♀️"; // Fixed caption
-  document.getElementById("rsvp-caption-credit").textContent = "Group trip with friends";
- 
+  caption.textContent = "See you there! 🏃🏻‍♂️🏃‍♀️"; // Fixed caption
   showingA = !showingA;
 }
     setInterval(showNextImage, 300); // 0.3s switch
